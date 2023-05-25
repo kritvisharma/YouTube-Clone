@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+        <title>Youtube Clone</title>
+       
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+ 
+
+<link rel="stylesheet" href="styles/general.css">
+<link rel="stylesheet" href="styles/video.css">
+<link rel="stylesheet" href="styles/header.css">
+<link rel="stylesheet" href="styles/sidebar.css">
+
+
+<body>
+
+
+<header class="header"> 
+    <div class="left-section"> 
+        <img src="/icons/hamburger-menu.svg" class="hamburger-menu">
+        <img src="/icons/youtube-logo.svg" class="youtube-logo">
+    </div>  
+    
+    
+    <div class="middle-section">
+        <input type="text" placeholder="Search" class="search">
+        <button class="search-button"><img src="/icons/search.svg" class="search-icon"><div class="tooltip">Search</div></button>
+        <button class="voice-search-button"><img src="/icons/voice-search-icon.svg" class="voice-search-icon"><div class="tooltip">Search with your voice</div></button>
+    </div>
+        
+    
+    <div class="right-section"> 
+        <div class="upload-icon-container"><img src="/icons/upload.svg" class="upload-icon"><div class="tooltip">Create</div></div>
+        <div class="upload-icon-container"><img src="/icons/youtube-apps.svg" class="youtube-apps-icon"><div class="tooltip">YouTube Apps</div></div>
+        <div class="notifications"><img src="/icons/notifications.svg" class="notifications-icon"><div class="notifs">5</div><div class="tooltip">Notifications</div></div>
+        <img src="/icons/blue background picture.jpeg" class="current-user-picture">
+    </div>
+
+</header>
+
+<nav class="sidebar">
+    <div class="sidebar-link"><img src="icons/home.svg"><div>Home</div></div>
+    <div class="sidebar-link"><img src="icons/explore.svg"><div>Explore</div></div>
+    <div class="sidebar-link"><img src="icons/subscriptions.svg"><div>Subscriptions</div></div>
+    <div class="sidebar-link"><img src="icons/originals.svg"><div>Originals</div></div>
+    <div class="sidebar-link"><img src="icons/youtube-music.svg"><div>Youtube Music</div></div>
+    <div class="sidebar-link"><img src="icons/library.svg"><div>Library</div></div>
+</nav>
+
+        
+<main></main>
+<section class="video-grid">
+    
+    <div class="preview">
+        <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=sEetXo3R-aM" target="_blank" class="video-title-link"><img class="thumbnail" src="/thumbnails/thumbnail-1.webp"></a>
+        <div class="video-time">3:43</div>
+        </div>
+        
+
+        <div class="video-info-grid">
+            <div class="channel-picture"><a href="https://www.youtube.com/channel/UCqk3CdGN_j8IR9z4uBbVPSg" target="_blank"><img src="/channel image/channel-1.jpg" class="profile-pic"></a>
+            </div>
+
+            <div class="video-info"><a href="https://www.youtube.com/watch?v=sEetXo3R-aM" target="_blank" class="video-title-link">
+                <p class="video-title">Diet Mountain Dew</p></a>
+                <p class="video-author">Lana Del Rey</p>
+                <p class="video-stats">26M views &#183; 3 years ago</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="preview">
+        <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY" target="_blank" class="video-title-link"><img class="thumbnail" src="/thumbnails/thumbnail-2.webp"></a>
+        <div class="video-time">8:22</div>
+        </div>
+        
+
+        <div class="video-info-grid">
+            <div class="channel-picture"><a href="https://www.youtube.com/@markiplier" target="_blank"><img src="/channel image/channel-2.jpeg" class="profile-pic"></a>
+            </div>
+
+            <div class="video-info"><a href="https://www.youtube.com/watch?v=n2RNcPRtAiY" target="_blank" class="video-title-link">
+                <p class="video-title">Try Not To Laugh Challenge #9</p></a>
+                <p class="video-author"> Markiplier</p>
+                <p class="video-stats">19M views &#183; 4 years ago</p>
+            </div>
+        </div>
+    </div>
+   
+
+    <div class="preview">
+        <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=8jPQjjsBbIc" target="_blank" class="video-title-link"><img class="thumbnail" src="/thumbnails/thumbnail-3.webp"></a>
+        <div class="video-time">12:21</div>
+        </div>
+        
+
+        <div class="video-info-grid">
+            <div class="channel-picture"><a href="https://www.youtube.com/@TED" target="_blank"><img src="/channel image/channel-3.jpeg" class="profile-pic"></a>
+                </div>
+
+            <div class="video-info"><a href="https://www.youtube.com/watch?v=8jPQjjsBbIc" target="_blank" class="video-title-link">
+                <p class="video-title">How to stay calm when you know you'll be stressed | Daniel Levitin</p></a>
+                <p class="video-author"> TED</p>
+                <p class="video-stats">15M views &#183; 7 years ago</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="preview">
+        <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=094y1Z2wpJg" target="_blank" class="video-title-link"><img class="thumbnail" src="/thumbnails/thumbnail-4.webp"></a>
+        <div class="video-time">22:09</div>
+        </div>
+        
+
+        <div class="video-info-grid">
+            <div class="channel-picture"><a href="https://www.youtube.com/@veritasium" target="_blank"><img src="/channel image/channel-4.jpeg" class="profile-pic"></a>
+            </div>
+
+            <div class="video-info"><a href="https://www.youtube.com/watch?v=094y1Z2wpJg" target="_blank" class="video-title-link">
+                <p class="video-title">The Simplest Math Problem No One Can Solve - Collatz Conjecture</p></a>
+                <p class="video-author"> Veritasium</p>
+                <p class="video-stats">32M views &#183; 1 year ago</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="preview">
+        <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=86CQq3pKSUw" target="_blank" class="video-title-link"><img class="thumbnail" src="/thumbnails/thumbnail-5.webp"></a>
+        <div class="video-time">11:17</div>
+        </div>
+        
+
+        <div class="video-info-grid">
+            <div class="channel-picture"><a href="https://www.youtube.com/@CSDojo" target="_blank"><img src="/channel image/channel-5.jpeg" class="profile-pic"></a>
+                </div>
+
+            <div class="video-info"><a href="https://www.youtube.com/watch?v=86CQq3pKSUw" target="_blank" class="video-title-link">
+                <p class="video-title">Kadane's Algorithm to Maximum Sum Subarray Problem</p></a>
+                <p class="video-author"> CS Dojo</p>
+                <p class="video-stats">519K views &#183; 4 months ago</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="preview">
+        <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=eoCam-Us_pg" target="_blank" class="video-title-link"><img class="thumbnail" src="/thumbnails/thumbnail-6.webp"></a>
+        <div class="video-time">18:50</div>
+        </div>
+        
+
+        <div class="video-info-grid">
+            <div class="channel-picture"><a href="https://www.youtube.com/@CodyKo" target="_blank"><img src="/channel image/channel-6.jpeg" class="profile-pic"></a>
+            </div>
+
+            <div class="video-info"><a href="https://www.youtube.com/watch?v=eoCam-Us_pg" target="_blank" class="video-title-link">
+                <p class="video-title">THAT'S CRINGE: you.</p></a>
+                <p class="video-author"> Cody Ko</p>
+                <p class="video-stats">24M views &#183; 4 years ago</p>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <div class="preview">
+        <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=wVRF3SqLUi0" target="_blank" class="video-title-link"><img class="thumbnail" src="/thumbnails/thumbnail-7.webp"></a>
+        <div class="video-time">3:49</div>
+        </div>
+        
+
+        <div class="video-info-grid">
+            <div class="channel-picture"><a href="https://www.youtube.com/@musictrend3609" target="_blank"><img src="/channel image/channel-7.jpg" class="profile-pic"></a>
+            </div>
+
+            <div class="video-info"><a href="https://www.youtube.com/watch?v=wVRF3SqLUi0" target="_blank" class="video-title-link">
+                <p class="video-title">Kanye West - Bound 2 (audio)</p></a>
+                <p class="video-author"> MusicTrend</p>
+                <p class="video-stats">3.5M views &#183; 9 years ago</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="preview">
+        <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=6HEheIozS5c&t=911s" target="_blank" class="video-title-link"><img class="thumbnail" src="/thumbnails/thumbnail-8.webp"></a>
+        <div class="video-time">19:52</div>
+        </div>
+        
+
+        <div class="video-info-grid">
+            <div class="channel-picture"><a href="https://www.youtube.com/@drewisgooden" target="_blank"><img src="/channel image/channel-8.jpg" class="profile-pic"></a>
+            </div>
+
+            <div class="video-info"><a href="https://www.youtube.com/watch?v=6HEheIozS5c&t=911s" target="_blank" class="video-title-link">
+                <p class="video-title">The Future of TV is Bleak</p></a>
+                <p class="video-author"> Drew Gooden</p>
+                <p class="video-stats">2.2M views &#183; 9 days ago</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="preview">
+        <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=lNU0sB20-zw" target="_blank" class="video-title-link"><img class="thumbnail" src="/thumbnails/thumbnail-9.webp"></a>
+        <div class="video-time">3:13</div>
+        </div>
+        
+
+        <div class="video-info-grid">
+            <div class="channel-picture"><a href="https://www.youtube.com/@TheDodo" target="_blank"><img src="/channel image/channel-9.jpg" class="profile-pic"></a>
+            </div>
+
+            <div class="video-info"><a href="https://www.youtube.com/watch?v=lNU0sB20-zw" target="_blank" class="video-title-link">
+                <p class="video-title">Pittie Only Misbehaves For His Grandma | The Dodo</p></a>
+                <p class="video-author"> The Dodo</p>
+                <p class="video-stats">424K views &#183; 7 days ago</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="preview">
+        <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=qZs767KQcvE" target="_blank" class="video-title-link"><img class="thumbnail" src="/thumbnails/thumbnail-10.webp"></a>
+        <div class="video-time">17:14</div>
+        </div>
+        
+
+        <div class="video-info-grid">
+            <div class="channel-picture"><a href="https://www.youtube.com/@abdul_bari" target="_blank"><img src="/channel image/channel-10.jpg" class="profile-pic"></a>
+            </div>
+
+            <div class="video-info"><a href="https://www.youtube.com/watch?v=qZs767KQcvE" target="_blank" class="video-title-link">
+                <p class="video-title">8.1 NP-Hard Graph Problem - Clique Decision Problem</p></a>
+                <p class="video-author">Abdul Bari</p>
+                <p class="video-stats">412K views &#183; 5 years ago</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="preview">
+        <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=qn4d5SXtxoM&t=4s" target="_blank" class="video-title-link"><img class="thumbnail" src="/thumbnails/thumbnail-11.webp"></a>
+        <div class="video-time">5:06</div>
+        </div>
+        
+
+        <div class="video-info-grid">
+            <div class="channel-picture"><a href="https://www.youtube.com/@InsiderFood" target="_blank"><img src="/channel image/channel-11.jpg" class="profile-pic"></a>
+            </div>
+
+            <div class="video-info"><a href="https://www.youtube.com/watch?v=qn4d5SXtxoM&t=4s" target="_blank" class="video-title-link">
+                <p class="video-title">How Fries Are Enjoyed Around The World | Insider Food</p></a>
+                <p class="video-author"> Insider Food</p>
+                <p class="video-stats">6.1M views &#183; 2 years ago</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="preview">
+        <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=yrZDn1fwgKE&t=17s" target="_blank" class="video-title-link"><img class="thumbnail" src="/thumbnails/thumbnail-12.webp"></a>
+        <div class="video-time">3:27</div>
+        </div>
+        
+
+        <div class="video-info-grid">
+            <div class="channel-picture"><a href="https://www.youtube.com/@dapz" target="_blank"><img src="/channel image/channel-12.jpg" class="profile-pic"></a>
+            </div>
+
+            <div class="video-info"><a href="https://www.youtube.com/watch?v=yrZDn1fwgKE&t=17s" target="_blank" class="video-title-link">
+                <p class="video-title">Using Math to Find When Your Dad is Coming Back with the Milk</p></a>
+                <p class="video-author">Dapz</p>
+                <p class="video-stats">10M views &#183; 1 year ago</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+</main>   
+        
+
+</body>
+</html>
