@@ -1,5 +1,4 @@
 # YouTube-Clone
-
 A responsive clone of the YouTube Home Page, made entirely using HTML and CSS. Functionalities include clickable thumbnails and video-titles, tooltips, responsive sizing and attention to detail when recreating elements. 
 
 
